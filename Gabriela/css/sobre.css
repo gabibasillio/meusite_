@@ -15,9 +15,9 @@
 
 .pic 
 {
-    width: 225px;
+    width: 450px;
     background-size: cover;
-    height: 300px;
+    height: 600px;
     background-image: url('..//imagem/IMG_20230305_162630_338.webp');
     background-repeat: no-repeat;
 }
