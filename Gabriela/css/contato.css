@@ -1,0 +1,83 @@
+
+@font-face 
+{
+font-family: brasileiro;
+src: url(../texto/Brasilero2018Free.otf);
+}
+
+.content
+{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+.description
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-contact
+{
+    font-family: brasileiro;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.sub-title
+{
+    font-family: brasileiro;
+    font-size: 30px;
+}
+
+.description-text
+{
+    font-size: 25px;
+    font-family: brasileiro;
+}
+
+.form
+{
+    font-family: brasileiro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.input-email, .input-name
+{
+    width: 80%;
+    height: 50px;
+    padding: 5px 15px;
+    margin: 10px 0;
+    border-radius: 20px;
+    border: none;
+}
+
+.textarea-description
+{
+    margin: 10px 0;
+    width: 80%;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 15px;
+}
+
+.accept
+{
+    display: flex;
+}
+
+.accept input 
+{
+    margin-right: 10px;
+}
+
+.accept span
+{
+    color: rgb(163, 4, 4);
+}

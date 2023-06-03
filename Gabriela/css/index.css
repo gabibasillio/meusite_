@@ -1,0 +1,48 @@
+* 
+{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+@font-face 
+{
+font-family: brasileiro;
+src: url(../texto/Brasilero2018Free.otf);
+}
+
+.body 
+{
+    font-family: Brasileiro!important;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    height: 90%;
+    background-color: #000;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title 
+{
+    font-size: 100px;
+    width: 30%;
+    text-align: center;
+}
+
+
+.iconbehance
+
+
+
+.text 
+{
+    font-size: 40px;
+}

@@ -1,0 +1,23 @@
+.about
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80%;
+}
+
+.description
+{
+    text-align: left;
+    width: 40%;
+    font-size: 35px;
+}
+
+.pic 
+{
+    width: 225px;
+    background-size: cover;
+    height: 300px;
+    background-image: url('..//imagem/IMG_20230305_162630_338.webp');
+    background-repeat: no-repeat;
+}

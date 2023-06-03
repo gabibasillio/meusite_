@@ -1,0 +1,66 @@
+.header 
+{
+    display: flex !important;
+    width: 100%;
+    height: 10%;
+    background-color: #fff;
+    flex-direction: row;
+}
+
+.logo 
+{
+    width: 10%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} 
+
+.logo-image
+{
+    background: url('../imagem/logo\ definitivo.png');
+    background-repeat: no-repeat;
+    width: 180px;
+    margin-left: 10px;
+    background-position: left;
+}
+
+.header-list 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+    width: 75%;
+}
+
+.header-list a 
+{
+    font-size: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+
+.icons
+{
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icons span 
+{
+    width: 15%;
+    height: 40%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.selected
+{
+    background-color: #cfcfcf;
+    padding: 5px;
+    border-radius: 50px;
+}
